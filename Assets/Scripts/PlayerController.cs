@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5.0f;  // Speed of the player
     private int score = 0;      // Score of the player
+    public int health = 5;      // Health of the player, initial value 5
 
     void Start()
     {
@@ -39,6 +40,16 @@ public class PlayerController : MonoBehaviour
             // Disable the Coin object
             other.gameObject.SetActive(false);
         }
+        // Check if the object we collided with is tagged as "Trap"
+        else if (other.gameObject.CompareTag("Trap"))
+        {
+            // Decrement the health
+            health--;
+
+            // Log the new health
+            Debug.Log("Health: " + health);
+
+            // You can add game over logic or other consequences here
+        }
     }
 }
-
