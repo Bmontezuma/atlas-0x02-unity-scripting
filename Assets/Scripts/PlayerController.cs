@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;  // Include the SceneManager
 
 public class PlayerController : MonoBehaviour
 {
@@ -24,6 +25,23 @@ public class PlayerController : MonoBehaviour
 
         // Apply the movement to the player
         transform.Translate(movement * speed * Time.deltaTime, Space.World);
+    }
+
+    void Update()
+    {
+        // Check if health is zero
+        if (health == 0)
+        {
+            // Log "Game Over!" message
+            Debug.Log("Game Over!");
+
+            // Reload the scene to start again
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+            // Reset health and score
+            health = 5;
+            score = 0;
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -50,6 +68,14 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Health: " + health);
 
             // You can add game over logic or other consequences here
+        }
+        // Check if the object we collided with is tagged as "Goal"
+        else if (other.gameObject.CompareTag("Goal"))
+        {
+            // Log "You win!" message
+            Debug.Log("You win!");
+
+            // You can add additional logic for winning the game here
         }
     }
 }
