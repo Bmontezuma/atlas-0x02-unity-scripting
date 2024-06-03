@@ -2,15 +2,15 @@
 ## **8Resources***
 Read or watch:
 
-[Unity Manual: Scripting Overview](https://docs.unity3d.com/Manual/ScriptingConcepts.html) (Read sections from “Creating and Using Scripts” to “Understanding Automatic Memory Management”)
-[Scripts as Behavior Components](https://learn.unity.com/tutorial/scripts-as-behaviour-components)
-[How to make a Video Game in Unity - Programming](https://www.youtube.com/watch?v=9ZEu_I-ido4&feature=youtu.be)
-[How to make a Video Game in Unity - Movement](https://www.youtube.com/watch?v=Au8oX5pu5u4)
-[How to make a Video Game in Unity - Camera Follow](https://www.youtube.com/watch?v=HVB6UVcb3f8)
-[Vector Maths](https://learn.unity.com/tutorial/vector-maths)
-[What Makes Great Games Great?](https://www.youtube.com/watch?v=aC3c_pcWwIQ)
-[Unity Manual](https://docs.unity3d.com/Manual/index.html)
-[Unity Tutorials: Scripting](https://learn.unity.com/course/beginner-scripting)
+[Unity Manual: Scripting Overview](https://docs.unity3d.com/Manual/ScriptingConcepts.html) (Read sections from “Creating and Using Scripts” to “Understanding Automatic Memory Management”)\
+[Scripts as Behavior Components](https://learn.unity.com/tutorial/scripts-as-behaviour-components)\
+[How to make a Video Game in Unity - Programming](https://www.youtube.com/watch?v=9ZEu_I-ido4&feature=youtu.be)\
+[How to make a Video Game in Unity - Movement](https://www.youtube.com/watch?v=Au8oX5pu5u4)\
+[How to make a Video Game in Unity - Camera Follow](https://www.youtube.com/watch?v=HVB6UVcb3f8)\
+[Vector Maths](https://learn.unity.com/tutorial/vector-maths)\
+[What Makes Great Games Great?](https://www.youtube.com/watch?v=aC3c_pcWwIQ)\
+[Unity Manual](https://docs.unity3d.com/Manual/index.html)\
+[Unity Tutorials: Scripting](https://learn.unity.com/course/beginner-scripting)\
 [Unity Manual: Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html)
 
 ## ***Learning Objectives***
