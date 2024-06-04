@@ -39,8 +39,8 @@ Clone this repository containing a maze Unity project. You will build on this pr
 
 Inside the maze scene, create a ***Sphere*** GameObject named ***Player*** with a ***Rigidbody*** component.
 
-Position: (23, 1.2, 16)
-Scale: (2, 2, 2)
-Material Name: player
+Position: (23, 1.2, 16)\
+Scale: (2, 2, 2)\
+Material Name: player\
 Material Color: #0000FFFF
 ![png](https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-cs-unity/421/unity-scripting_0.png)
