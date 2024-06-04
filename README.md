@@ -62,3 +62,12 @@ Create a public float speed variable that can be edited in the Inspector to easi
 GitHub repository: atlas-0x02-unity-scripting\
 File: Assets/maze.unity, Assets/Scripts/PlayerController.cs
 
+2. Camera ready
+mandatory
+Move the Main Camera to position (22, 26, 7). Create a new C# script in the Scripts directory called CameraController.cs.
+
+The script should have a public GameObject player variable that can be edited from the Inspector window.
+The camera should follow the Player as it moves. In other words, when the player moves, the camera’s Transform position should also change relative to the Player.
+The camera’s position should remain at a constant offset from the Player‘s position.
+The camera does not need to rotate.
+![image](https://github.com/Bmontezuma/atlas-0x02-unity-scripting/assets/143756794/2ef6d4f1-e2dc-4fbc-b081-35ebef43b5be)
