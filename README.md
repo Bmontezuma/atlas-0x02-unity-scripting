@@ -116,3 +116,19 @@ Create an empty GameObject named Coins to contain all the Coin objects in the Hi
 
 GitHub repository: atlas-0x02-unity-scripting\
 File: Assets/maze.unity, Assets/Scripts/PlayerController.cs, Assets/Scripts/Rotator.cs
+
+5. Danger zone
+   Create a new Plane GameObject named Trap.
+
+Position: (9.5, 0.26, 27)
+Scale: (0.5, 1, 0.5)
+Material Name: trap
+Material Color: #FF0000FF
+Tag: Trap
+The Trap‘s Collider component should have Convex and Is Trigger checked (Why?)
+Turn Trap into a prefab inside the Prefabs directory
+![png](https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-cs-unity/421/unity-scripting_5.png)
+## ***Repo***:
+
+GitHub repository: atlas-0x02-unity-scripting\
+File: Assets/maze.unity, Assets/Prefabs/Trap.prefab, Assets/Materials/trap.mat
