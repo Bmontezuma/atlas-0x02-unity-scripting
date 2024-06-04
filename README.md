@@ -71,3 +71,24 @@ The camera should follow the Player as it moves. In other words, when the player
 The camera’s position should remain at a constant offset from the Player‘s position.
 The camera does not need to rotate.
 ![image](https://github.com/Bmontezuma/atlas-0x02-unity-scripting/assets/143756794/2ef6d4f1-e2dc-4fbc-b081-35ebef43b5be)
+# ***Repo***:
+
+GitHub repository: atlas-0x02-unity-scripting\
+File: Assets/maze.unity, Assets/Scripts/CameraController.cs
+
+3. Insert coin
+Create a new Cylinder GameObject named Coin.
+
+Position: (27, 1.7, 24)
+Rotation: (0, 0, 90)
+Scale: (1, .05, .8)
+Material Name: coin
+Material Color: #FFFF00FF
+Tag: Pickup
+The Coin‘s Collider component should have Is Trigger checked (Why?)
+Turn Coin into a prefab inside a directory called Prefabs
+![png](https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-cs-unity/421/unity-scripting_3.png)
+# ***Repo***:
+
+GitHub repository: atlas-0x02-unity-scripting\
+File: Assets/maze.unity, Assets/Prefabs/Coin.prefab, Assets/Materials/coin.mat
