@@ -92,3 +92,27 @@ Turn Coin into a prefab inside a directory called Prefabs
 
 GitHub repository: atlas-0x02-unity-scripting\
 File: Assets/maze.unity, Assets/Prefabs/Coin.prefab, Assets/Materials/coin.mat
+
+4. Coin collecting
+mandatory
+Create a new C# script called Rotator.cs and attach it to Coin.
+
+Within the Update() function, change the x value of the Coin‘s rotation to 45 over time.
+Hint: Time.deltaTime
+Add a new private int score variable to your PlayerController script. Set the initial value of score to 0.
+
+Add the following new function to the script:
+
+Prototype: void OnTriggerEnter(Collider other)
+This function should increment the value of score when the Player touches an object tagged Pickup
+Write the new value of score to the console using Debug.Log() with the format Score: <value>
+The Coin object should be disabled or destroyed after the Player touches it
+Place at least 20 total Coins within the maze in any X / Z position you like, as long as they are visible to the player. Keep the Y position at 1.7 to ensure the player can reach them.
+
+Create an empty GameObject named Coins to contain all the Coin objects in the Hierarchy window. Make sure the new empty GameObject’s Scale values are all set to 1 before dragging the Coin objects into the Coins object to avoid issues with the coins’ scaling and rotation.
+![gif](https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-cs-unity/421/unity-scripting_4a.gif)
+![gif](https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-cs-unity/421/unity-scripting_4b.gif)
+## ***Repo***:
+
+GitHub repository: atlas-0x02-unity-scripting\
+File: Assets/maze.unity, Assets/Scripts/PlayerController.cs, Assets/Scripts/Rotator.cs
