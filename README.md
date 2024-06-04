@@ -44,3 +44,21 @@ Scale: (2, 2, 2)\
 Material Name: player\
 Material Color: #0000FFFF
 ![png](https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-cs-unity/421/unity-scripting_0.png)
+## ***Repo***:
+
+GitHub repository: atlas-0x02-unity-scripting\
+File: Assets/maze.unity, Assets/Materials/player.mat
+
+# ***1. Bust a move***
+
+Create a directory Scripts. In this directory, create a new C# script called PlayerController.cs. Attach this script to the Player object. Within this script, update the Start() and FixedUpdate() functions to allow the Player to move when either the WASD or arrow keys are pressed
+
+Movement should only be on the X and Z axes – the Player should not be able to jump.
+There are many ways to create player movement depending on the way you want your player to behave. The way you implement player movement is up to you, as long as it is possible for Player to move through the maze.
+Create a public float speed variable that can be edited in the Inspector to easily modify the Player‘s speed. The value of the Player’s speed is entirely up to you and how you implement player movement.
+![gif](https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-cs-unity/421/unity-scripting_1.gif)
+# ***Repo***:
+
+GitHub repository: atlas-0x02-unity-scripting\
+File: Assets/maze.unity, Assets/Scripts/PlayerController.cs
+
