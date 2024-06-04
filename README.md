@@ -31,3 +31,16 @@ Read or watch:
 - Push the entire repo unity-scripting, including .meta files
 - Scenes and project assets such as Materials must be named and organized as described in the tasks
 - For this project’s manual review, the reviewer will clone your repo and open your project in Unity
+
+# ***Tasks***
+# ***0. Ready player one***
+
+Clone this repository containing a maze Unity project. You will build on this project by adding new GameObjects and scripts to create a playable game. This project should be pushed to its own repo called unity-scripting, not within a subdirectory.
+
+Inside the maze scene, create a ***Sphere*** GameObject named ***Player*** with a ***Rigidbody*** component.
+
+Position: (23, 1.2, 16)
+Scale: (2, 2, 2)
+Material Name: player
+Material Color: #0000FFFF
+[Pic](https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-cs-unity/421/unity-scripting_0.png)
